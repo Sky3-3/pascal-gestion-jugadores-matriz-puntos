@@ -1,0 +1,195 @@
+object Form1: TForm1
+  Left = 310
+  Height = 612
+  Top = 182
+  Width = 1285
+  Caption = 'Form1'
+  ClientHeight = 612
+  ClientWidth = 1285
+  DesignTimePPI = 120
+  LCLVersion = '4.6.0.0'
+  OnCreate = FormCreate
+  object lbl_jugadores: TLabel
+    Left = 40
+    Height = 1
+    Top = 56
+    Width = 1
+  end
+  object btn_cargar: TButton
+    Left = 720
+    Height = 31
+    Top = 96
+    Width = 134
+    Caption = 'Cargar Jugador '
+    TabOrder = 0
+    OnClick = btn_cargarClick
+  end
+  object edt_jugador: TEdit
+    Left = 720
+    Height = 28
+    Top = 56
+    Width = 134
+    TabOrder = 1
+  end
+  object lbl_tittle: TLabel
+    Left = 720
+    Height = 20
+    Top = 24
+    Width = 124
+    Caption = 'Ingrese un jugador'
+  end
+  object lbl_jugvaloralto: TLabel
+    Left = 230
+    Height = 1
+    Top = 56
+    Width = 1
+  end
+  object edt_puntos: TEdit
+    Left = 766
+    Height = 28
+    Top = 184
+    Width = 88
+    TabOrder = 2
+  end
+  object lbl_tittle1: TLabel
+    Left = 720
+    Height = 20
+    Top = 152
+    Width = 122
+    Caption = 'Adivine los puntos'
+  end
+  object btn_puntos: TButton
+    Left = 720
+    Height = 48
+    Top = 280
+    Width = 134
+    Caption = 'Ingresar los puntos'
+    TabOrder = 3
+    OnClick = btn_puntosClick
+  end
+  object lbl_tittle2: TLabel
+    Left = 72
+    Height = 25
+    Top = 19
+    Width = 106
+    Caption = 'JUGADORES'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -18
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object lbl_tittle3: TLabel
+    Left = 232
+    Height = 25
+    Top = 19
+    Width = 268
+    Caption = 'GANADORES LVInicial, LV1, LV2'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clMaroon
+    Font.Height = -18
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object cmb_jugadores: TComboBox
+    Left = 720
+    Height = 28
+    Top = 360
+    Width = 134
+    ItemHeight = 20
+    TabOrder = 4
+  end
+  object btn_puntos_niveles: TButton
+    Left = 704
+    Height = 32
+    Top = 392
+    Width = 158
+    Caption = 'Puntaje en los Niveles'
+    TabOrder = 5
+    OnClick = btn_puntos_nivelesClick
+  end
+  object btn_puntaje_total: TButton
+    Left = 696
+    Height = 32
+    Top = 432
+    Width = 182
+    Caption = 'Puntaje total del Jugador'
+    TabOrder = 6
+    OnClick = btn_puntaje_totalClick
+  end
+  object lbl_jugmayorvalor: TLabel
+    Left = 910
+    Height = 1
+    Top = 56
+    Width = 1
+  end
+  object lbl_tittle4: TLabel
+    Left = 888
+    Height = 25
+    Top = 19
+    Width = 215
+    Caption = 'JUGADORES - PTS TOTAL'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -18
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object btn_puntos_mayores: TButton
+    Left = 704
+    Height = 32
+    Top = 480
+    Width = 158
+    Caption = 'Superan Valor'
+    TabOrder = 7
+    OnClick = btn_puntos_mayoresClick
+  end
+  object btn_modificar_puntaje: TButton
+    Left = 704
+    Height = 48
+    Top = 520
+    Width = 158
+    Caption = 'Modificar Puntaje'
+    TabOrder = 8
+    OnClick = btn_modificar_puntajeClick
+  end
+  object lbl_tittle5: TLabel
+    Left = 720
+    Height = 20
+    Top = 184
+    Width = 23
+    Caption = 'LV1'
+  end
+  object edt_puntos_nv1: TEdit
+    Left = 766
+    Height = 28
+    Top = 216
+    Width = 88
+    TabOrder = 9
+  end
+  object lbl_tittle6: TLabel
+    Left = 720
+    Height = 20
+    Top = 216
+    Width = 23
+    Caption = 'LV2'
+  end
+  object edt_puntos_nv2: TEdit
+    Left = 766
+    Height = 28
+    Top = 248
+    Width = 88
+    TabOrder = 10
+  end
+  object lbl_tittle7: TLabel
+    Left = 720
+    Height = 20
+    Top = 248
+    Width = 23
+    Caption = 'LV3'
+  end
+end
